@@ -1,0 +1,33 @@
+{
+  "name": "haatcrm",
+  "version": "0.1.0",
+  "description": "Open-source CRM for Facebook/WhatsApp sellers in Bangladesh — orders, COD, courier tracking, fake-order risk scores, Bangla UI.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.2.0",
+    "next": "^16.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "~5.9.0",
+    "vitest": "^5.1.1"
+  }
+}
